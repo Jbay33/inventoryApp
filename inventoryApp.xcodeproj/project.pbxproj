@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAADD2362AAF895700770FDF /* ShirtColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADD2352AAF895700770FDF /* ShirtColor.swift */; };
+		CAADD2382AB0DB6B00770FDF /* addNewColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADD2372AB0DB6B00770FDF /* addNewColorsView.swift */; };
+		CAB43EE22AB2315F00CB8DF8 /* addInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB43EE12AB2315F00CB8DF8 /* addInventoryView.swift */; };
+		CAC484D52AAA42D100E2745E /* inventoryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC484D42AAA42D100E2745E /* inventoryAppApp.swift */; };
+		CAC484D72AAA42D100E2745E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC484D62AAA42D100E2745E /* ContentView.swift */; };
+		CAC484D92AAA42D200E2745E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC484D82AAA42D200E2745E /* Assets.xcassets */; };
+		CAC484DC2AAA42D200E2745E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC484DB2AAA42D200E2745E /* Preview Assets.xcassets */; };
+		CAC484E72AAA42D200E2745E /* inventoryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC484E62AAA42D200E2745E /* inventoryAppTests.swift */; };
+		CAC484F12AAA42D200E2745E /* inventoryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC484F02AAA42D200E2745E /* inventoryAppUITests.swift */; };
+		CAC484F32AAA42D200E2745E /* inventoryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC484F22AAA42D200E2745E /* inventoryAppUITestsLaunchTests.swift */; };
+		CAC485002AAA433900E2745E /* inventoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC484FF2AAA433900E2745E /* inventoryList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAC484E32AAA42D200E2745E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC484C92AAA42D100E2745E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC484D02AAA42D100E2745E;
+			remoteInfo = inventoryApp;
+		};
+		CAC484ED2AAA42D200E2745E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC484C92AAA42D100E2745E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC484D02AAA42D100E2745E;
+			remoteInfo = inventoryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAADD2352AAF895700770FDF /* ShirtColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShirtColor.swift; sourceTree = "<group>"; };
+		CAADD2372AB0DB6B00770FDF /* addNewColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewColorsView.swift; sourceTree = "<group>"; };
+		CAB43EE12AB2315F00CB8DF8 /* addInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addInventoryView.swift; sourceTree = "<group>"; };
+		CAC484D12AAA42D100E2745E /* inventoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inventoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC484D42AAA42D100E2745E /* inventoryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryAppApp.swift; sourceTree = "<group>"; };
+		CAC484D62AAA42D100E2745E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAC484D82AAA42D200E2745E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC484DB2AAA42D200E2745E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAC484DD2AAA42D200E2745E /* inventoryApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = inventoryApp.entitlements; sourceTree = "<group>"; };
+		CAC484E22AAA42D200E2745E /* inventoryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inventoryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC484E62AAA42D200E2745E /* inventoryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryAppTests.swift; sourceTree = "<group>"; };
+		CAC484EC2AAA42D200E2745E /* inventoryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inventoryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC484F02AAA42D200E2745E /* inventoryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryAppUITests.swift; sourceTree = "<group>"; };
+		CAC484F22AAA42D200E2745E /* inventoryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAC484FF2AAA433900E2745E /* inventoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventoryList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC484CE2AAA42D100E2745E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC484DF2AAA42D200E2745E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC484E92AAA42D200E2745E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC484C82AAA42D100E2745E = {
+			isa = PBXGroup;
+			children = (
+				CAC484D32AAA42D100E2745E /* inventoryApp */,
+				CAC484E52AAA42D200E2745E /* inventoryAppTests */,
+				CAC484EF2AAA42D200E2745E /* inventoryAppUITests */,
+				CAC484D22AAA42D100E2745E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC484D22AAA42D100E2745E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC484D12AAA42D100E2745E /* inventoryApp.app */,
+				CAC484E22AAA42D200E2745E /* inventoryAppTests.xctest */,
+				CAC484EC2AAA42D200E2745E /* inventoryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC484D32AAA42D100E2745E /* inventoryApp */ = {
+			isa = PBXGroup;
+			children = (
+				CAC484D42AAA42D100E2745E /* inventoryAppApp.swift */,
+				CAC484D62AAA42D100E2745E /* ContentView.swift */,
+				CAC484FF2AAA433900E2745E /* inventoryList.swift */,
+				CAADD2372AB0DB6B00770FDF /* addNewColorsView.swift */,
+				CAB43EE12AB2315F00CB8DF8 /* addInventoryView.swift */,
+				CAADD2352AAF895700770FDF /* ShirtColor.swift */,
+				CAC484D82AAA42D200E2745E /* Assets.xcassets */,
+				CAC484DD2AAA42D200E2745E /* inventoryApp.entitlements */,
+				CAC484DA2AAA42D200E2745E /* Preview Content */,
+			);
+			path = inventoryApp;
+			sourceTree = "<group>";
+		};
+		CAC484DA2AAA42D200E2745E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAC484DB2AAA42D200E2745E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAC484E52AAA42D200E2745E /* inventoryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC484E62AAA42D200E2745E /* inventoryAppTests.swift */,
+			);
+			path = inventoryAppTests;
+			sourceTree = "<group>";
+		};
+		CAC484EF2AAA42D200E2745E /* inventoryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC484F02AAA42D200E2745E /* inventoryAppUITests.swift */,
+				CAC484F22AAA42D200E2745E /* inventoryAppUITestsLaunchTests.swift */,
+			);
+			path = inventoryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC484D02AAA42D100E2745E /* inventoryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC484F62AAA42D200E2745E /* Build configuration list for PBXNativeTarget "inventoryApp" */;
+			buildPhases = (
+				CAC484CD2AAA42D100E2745E /* Sources */,
+				CAC484CE2AAA42D100E2745E /* Frameworks */,
+				CAC484CF2AAA42D100E2745E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inventoryApp;
+			productName = inventoryApp;
+			productReference = CAC484D12AAA42D100E2745E /* inventoryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAC484E12AAA42D200E2745E /* inventoryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC484F92AAA42D200E2745E /* Build configuration list for PBXNativeTarget "inventoryAppTests" */;
+			buildPhases = (
+				CAC484DE2AAA42D200E2745E /* Sources */,
+				CAC484DF2AAA42D200E2745E /* Frameworks */,
+				CAC484E02AAA42D200E2745E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC484E42AAA42D200E2745E /* PBXTargetDependency */,
+			);
+			name = inventoryAppTests;
+			productName = inventoryAppTests;
+			productReference = CAC484E22AAA42D200E2745E /* inventoryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAC484EB2AAA42D200E2745E /* inventoryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC484FC2AAA42D200E2745E /* Build configuration list for PBXNativeTarget "inventoryAppUITests" */;
+			buildPhases = (
+				CAC484E82AAA42D200E2745E /* Sources */,
+				CAC484E92AAA42D200E2745E /* Frameworks */,
+				CAC484EA2AAA42D200E2745E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC484EE2AAA42D200E2745E /* PBXTargetDependency */,
+			);
+			name = inventoryAppUITests;
+			productName = inventoryAppUITests;
+			productReference = CAC484EC2AAA42D200E2745E /* inventoryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC484C92AAA42D100E2745E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CAC484D02AAA42D100E2745E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CAC484E12AAA42D200E2745E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CAC484D02AAA42D100E2745E;
+					};
+					CAC484EB2AAA42D200E2745E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CAC484D02AAA42D100E2745E;
+					};
+				};
+			};
+			buildConfigurationList = CAC484CC2AAA42D100E2745E /* Build configuration list for PBXProject "inventoryApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC484C82AAA42D100E2745E;
+			productRefGroup = CAC484D22AAA42D100E2745E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC484D02AAA42D100E2745E /* inventoryApp */,
+				CAC484E12AAA42D200E2745E /* inventoryAppTests */,
+				CAC484EB2AAA42D200E2745E /* inventoryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC484CF2AAA42D100E2745E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC484DC2AAA42D200E2745E /* Preview Assets.xcassets in Resources */,
+				CAC484D92AAA42D200E2745E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC484E02AAA42D200E2745E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC484EA2AAA42D200E2745E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC484CD2AAA42D100E2745E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC484D72AAA42D100E2745E /* ContentView.swift in Sources */,
+				CAB43EE22AB2315F00CB8DF8 /* addInventoryView.swift in Sources */,
+				CAC485002AAA433900E2745E /* inventoryList.swift in Sources */,
+				CAADD2382AB0DB6B00770FDF /* addNewColorsView.swift in Sources */,
+				CAC484D52AAA42D100E2745E /* inventoryAppApp.swift in Sources */,
+				CAADD2362AAF895700770FDF /* ShirtColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC484DE2AAA42D200E2745E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC484E72AAA42D200E2745E /* inventoryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC484E82AAA42D200E2745E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC484F12AAA42D200E2745E /* inventoryAppUITests.swift in Sources */,
+				CAC484F32AAA42D200E2745E /* inventoryAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAC484E42AAA42D200E2745E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC484D02AAA42D100E2745E /* inventoryApp */;
+			targetProxy = CAC484E32AAA42D200E2745E /* PBXContainerItemProxy */;
+		};
+		CAC484EE2AAA42D200E2745E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC484D02AAA42D100E2745E /* inventoryApp */;
+			targetProxy = CAC484ED2AAA42D200E2745E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAC484F42AAA42D200E2745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAC484F52AAA42D200E2745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CAC484F72AAA42D200E2745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = inventoryApp/inventoryApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"inventoryApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justinBaylis.inventoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CAC484F82AAA42D200E2745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = inventoryApp/inventoryApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"inventoryApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justinBaylis.inventoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CAC484FA2AAA42D200E2745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justinBaylis.inventoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inventoryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/inventoryApp";
+			};
+			name = Debug;
+		};
+		CAC484FB2AAA42D200E2745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justinBaylis.inventoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inventoryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/inventoryApp";
+			};
+			name = Release;
+		};
+		CAC484FD2AAA42D200E2745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justinBaylis.inventoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = inventoryApp;
+			};
+			name = Debug;
+		};
+		CAC484FE2AAA42D200E2745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justinBaylis.inventoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = inventoryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC484CC2AAA42D100E2745E /* Build configuration list for PBXProject "inventoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC484F42AAA42D200E2745E /* Debug */,
+				CAC484F52AAA42D200E2745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC484F62AAA42D200E2745E /* Build configuration list for PBXNativeTarget "inventoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC484F72AAA42D200E2745E /* Debug */,
+				CAC484F82AAA42D200E2745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC484F92AAA42D200E2745E /* Build configuration list for PBXNativeTarget "inventoryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC484FA2AAA42D200E2745E /* Debug */,
+				CAC484FB2AAA42D200E2745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC484FC2AAA42D200E2745E /* Build configuration list for PBXNativeTarget "inventoryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC484FD2AAA42D200E2745E /* Debug */,
+				CAC484FE2AAA42D200E2745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC484C92AAA42D100E2745E /* Project object */;
+}
